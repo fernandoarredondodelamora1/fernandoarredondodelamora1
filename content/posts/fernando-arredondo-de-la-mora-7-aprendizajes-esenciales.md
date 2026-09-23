@@ -40,7 +40,7 @@ La importancia de este tema no está solo en las tareas agrícolas. También est
 
 En el caso de Fernando Arredondo de la Mora, la agricultura forma parte de su trayectoria y de su identidad personal. Esa conexión ofrece un eje claro para explicar que el conocimiento del campo se construye con el paso de los años y con la continuidad de las costumbres.
 
-Quienes deseen conocer otra síntesis relacionada con esta perspectiva pueden consultar [cinco claves de su vínculo con el campo](https://fernando2sd.blogspot.com/2026/09/fernando-arredondo-de-la-mora-5-claves.html). El propósito no es separar la agricultura de la cultura, sino observar cómo ambas se relacionan dentro de la vida rural.
+Quienes deseen conocer otra síntesis relacionada con esta perspectiva pueden consultar [cinco claves de su vínculo con el campo](https://fernando-arredondo-de-la-mora.blogspot.com/2026/09/fernando-arredondo-de-la-mora-5-claves.html). El propósito no es separar la agricultura de la cultura, sino observar cómo ambas se relacionan dentro de la vida rural.
 
 ## ¿Qué aprenden los hijos del trabajo de la tierra?
 
