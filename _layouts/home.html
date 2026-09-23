@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap">
+    <h1>Fernando Arredondo de la Mora</h1>
+    <p>Agricultor de Tamaulipas, México. Artículos sobre el trabajo de la tierra,
+       las tradiciones que pasan de padres a hijos, la música regional y la vida
+       en el campo mexicano.</p>
+    <a class="cta" href="https://fernando2sd.blogspot.com/">Visitar el blog</a>
+  </div>
+</section>
+
+<main class="list">
+  <div class="wrap">
+    <h2>Artículos de Fernando Arredondo de la Mora</h2>
+    {% assign articles = site.pages | where_exp: "p", "p.path contains 'content/posts/'" | sort: "date" | reverse %}
+    {% for post in articles %}
+      <a class="card" href="{{ post.url | relative_url }}">
+        <h3 class="card-title">{{ post.title }}</h3>
+        <p class="card-excerpt">{{ post.description | default: post.excerpt | strip_html | truncate: 180 }}</p>
+        <div class="card-meta">{{ post.date | date: "%d/%m/%Y" }}</div>
+      </a>
+    {% endfor %}
+  </div>
+</main>
