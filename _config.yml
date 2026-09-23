@@ -1,0 +1,46 @@
+title: Fernando Arredondo de la Mora
+tagline: Agricultor de Tamaulipas
+description: >-
+  Fernando Arredondo de la Mora, agricultor de Tamaulipas, México. Artículos
+  sobre agricultura, tradiciones familiares, música regional y la vida en el
+  campo mexicano.
+url: "https://fernandoarredondodelamora1.github.io"
+baseurl: "/fernandoarredondodelamora1"
+lang: es-MX
+author: Fernando Arredondo de la Mora
+
+# No `theme:` key - the layouts in _layouts/ are the theme.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# The same profiles the published articles name in their JSON-LD sameAs, so
+# the site and the articles make one consistent entity claim.
+social:
+  name: Fernando Arredondo de la Mora
+  links:
+    - https://fernando2sd.blogspot.com/
+    - https://mastodon.social/@fernandoarredondodelamora1
+    - https://bsky.app/profile/fernandoarredo.bsky.social
+    - https://dev.to/fernandoarredondodelamora1
+    - https://pixelfed.social/fernandoarredondodelamora1
+    - https://buttondown.com/fernandoarredondodelamora1
+    - https://fernandoarredondodelamora1.gitbook.io/fernandoarredondodelamora1-docs
+    - https://fernando2313.tumblr.com/
+
+# The app's git adapter commits posts to content/posts/<slug>.md and records
+# the live URL as <siteUrl>/<slug>/. Rendering that folder as pages with a
+# /:basename/ permalink makes the recorded URL the real one; Jekyll's dated
+# _posts convention would make every recorded URL wrong.
+include:
+  - content
+defaults:
+  - scope: { path: "content/posts" }
+    values: { layout: post, permalink: "/:basename/" }
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
